@@ -1,0 +1,72 @@
+
+
+    /* Styles for map elements:*/
+    svg{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .land {
+      fill: #cccccc;
+    }
+    .country {
+      stroke: white;
+      stroke-width: 0.5px;
+    }
+
+    /* Styles for textual elements:*/
+    .legend-text{
+      fill: #3a3a3a;
+      text-anchor: start;
+      font-size: 12px;
+    }
+    .title{
+      fill: #3a3a3a;
+      font-weight: bold;
+      font-size: 20px;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    p{
+      fill: #3a3a3a;
+      text-align: center;
+      padding-top: 10px;
+    }
+    .footer{
+      fill: #3a3a3a;
+      text-anchor: end;
+      font-size: 9px;
+    }
+
+    /* Styles for zooming buttons: */
+    button {
+      width:30px;
+      background-color: #cccccc;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 10px;
+      outline: none;
+    }
+
+    #zoom_in {
+      position:absolute;
+    }
+    #zoom_out {
+      position:absolute;
+    }
+
+    /* Style for tooltip */
+    div.tooltip {
+      position: absolute;
+      text-align: center;
+      padding: 2px;
+      font: 12px sans-serif;
+      font-weight: bold;
+      background: #dbdbdb;
+      border: 0px;
+      border-radius: 8px;
+      pointer-events: none;
+    }
